@@ -1,0 +1,21 @@
+time:
+    START_DATE: 2020-01-01_00:00:00
+    END_DATE:   2020-01-01_03:00:00
+    INTERVAL_SECONDS: 10800
+
+geogrid:
+    N_DOMAINS: 1
+    DX: 6000
+    DY: 6000
+    LAT: 54.00
+    LON: 44.00
+    DATA_PATH: '"/data/WPS_GEOG/"'
+
+domains:
+    -   PARENT_ID: 1
+        PARENT_GRID_RATIO: 1
+        I_PARENT_START: 1
+        J_PARENT_START: 1
+        E_WE: 100
+        E_SN: 100
+        GEOG_DATA_RES: '"default"'

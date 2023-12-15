@@ -1,0 +1,16 @@
+name: wrf
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - jinja2
+  - pyyaml
+  - requests
+  - pytorch
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - scikit-learn
+  - catboost
